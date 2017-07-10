@@ -28,7 +28,7 @@ public class CaptureActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == sRequestCodeCapture){
             if(resultCode == RESULT_OK){
-                http://www.jianshu.com/p/d7eb518195fd
+                //http://www.jianshu.com/p/d7eb518195fd
                 mMediaProjectionManager.getMediaProjection(requestCode, data);
             }
         }
